@@ -19,7 +19,7 @@
                             echo "*";
                         }
 
-                        echo "<br>";
+                        echo("<br>");
 
                     }   
 
@@ -36,7 +36,7 @@
                             echo $j;
                         }
 
-                        echo "<br>";
+                        echo("<br>");
 
                     }   
 
@@ -56,7 +56,7 @@
                             $counter++;
                         }
                     
-                        echo "<br>";
+                        echo("<br>");
 
                     }
 
