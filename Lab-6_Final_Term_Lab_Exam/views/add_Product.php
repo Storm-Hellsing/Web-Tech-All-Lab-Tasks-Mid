@@ -19,7 +19,7 @@
                 <input type="checkbox" name="display" id="display" value=""/>
                 <label for="display">Display</label> <br/>
                 <hr>
-                <input type="submit" name="submit" id="submit"/>
+                <input type="submit" name="submit" id="submit" value="Save"/>
                 <br/><br/>
 
                 <?php
@@ -46,6 +46,11 @@
 
                 ?>
             </fieldset>
+
+            <br/><br/>
+
+            <h3 align="center"><a href="product_list.php">View Product List</a></h3>
+
         </form>
     </body>
 </html>

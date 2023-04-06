@@ -24,4 +24,10 @@
         return mysqli_query($connected, $sql);
     }
 
+    function sqlgetTableData($sql)
+    {
+        $connected = setConnection();
+        return mysqli_query($connected, $sql);
+    }
+
 ?>
